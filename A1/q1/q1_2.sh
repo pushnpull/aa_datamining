@@ -13,7 +13,7 @@ fi
 
 TOTAL_CHEEZEIN="$1"      # kitne alag-alag items hone chahiye
 KITNE_BILL="$2"          # kitne customers/bills generate karne hain
-OUTPUT_FILE="synthetic_billing_data.dat"
+OUTPUT_FILE="generated_transactions.dat"
 
 echo "fake shopping dataset"
 echo "→ ${KITNE_BILL} bills banenge"
